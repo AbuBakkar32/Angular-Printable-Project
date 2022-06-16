@@ -3,9 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.17.
 
 ## Run the following command to install the project and dependencies
-```
-https://github.com/AbuBakkar32/Angular-Printable-Project.git
-```
+
 ##### Copy the link and paste on your CMD or Terminal with git clone
 ```
 git clone https://github.com/AbuBakkar32/Angular-Printable-Project.git
