@@ -14,6 +14,13 @@ npm install
 ```
 It will take a couple of minutes to install the dependencies.
 
+### Start the Tailwind CLI build process
+Run the CLI tool to scan your template files for classes and build your CSS.
+Run the below line in your terminal.
+```
+npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

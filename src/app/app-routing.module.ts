@@ -10,7 +10,8 @@ const routes: Routes = [
   { path: 'anex', component: AnexComponent },
   { path: 'checklist', component: ChecklistComponent },
   { path: 'solicitud', component: SolicitudComponent },
-  { path: 'manifest', component: ManifestComponent }
+  { path: 'manifest', component: ManifestComponent },
+  { path: '**', component: AnexComponent } // If no matching route found, go back to anex route
 ];
 
 @NgModule({
