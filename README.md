@@ -24,3 +24,12 @@ npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## List of URL
+
+```
+http://localhost:4200/anex
+http://localhost:4200/checklist
+http://localhost:4200/solicitud
+http://localhost:4200/manifest
+```
