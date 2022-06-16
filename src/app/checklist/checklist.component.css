@@ -1,0 +1,14 @@
+*:focus {
+  outline: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+input[type="text"]{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: red;
+}

@@ -1,0 +1,336 @@
+<div class="container text-center py-2">
+  <a (click)="print('print')" target="_blank">
+    <button
+      class="text-green-700 border border-green-900 hover:bg-green-700 hover:text-white active:bg-green-600 font-bold uppercase px-8 py-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+      type="button"
+    >
+      <i class="fas fa-print"></i> Print
+    </button>
+  </a>
+</div>
+<div id="print" style="width: 100%; margin: 16px auto; max-width: 1000px; border: 1px solid lightgray; ">
+  <div style="padding: 16px;">
+    <h3 style="text-align: center;">CRÉDITO SIMPLE PERSONA FÍSICA</h3>
+    <p class="bold" style="text-align: right;">Listado No.1</p>
+
+    <div style="display: flex; justify-content: right;">
+      <div>
+        <label>Fecha:</label>
+        <input type="text" style="border: none; border-bottom: 1px solid black; " />
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; margin-top: 16px;">
+      <div>
+        <label>No. Cliente:</label>
+        <input type="text" style="border: none; border-bottom: 1px solid black; " />
+      </div>
+      <div style="min-width: 50%; display: flex;">
+        <label style="white-space: nowrap;">Nombre Cliente:</label>
+        <input type="text" style="border: none; border-bottom: 1px solid black; width: 100%;" />
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: right; margin-top: 16px;">
+      <div>
+        <label>Identificador:</label>
+        <input type="text" style="border: none; border-bottom: 1px solid black; " />
+      </div>
+    </div>
+
+    <h4 style="text-align: center;">DOCUMENTACION DEL CLIENTE</h4>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">1</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>&#10004;</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Solicitud de crédito. (Incluye Anexo 4 PLD)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">2</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>NA</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">2	Cuestionario de Identificación de Personas Físicas (Anexo 10 PLD) Si es de Alto Riesgo</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">3</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>&#10004;</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Autorización revisión de historial crediticio (Anexo CSPF‐4)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">4</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>&#10004;</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Identificación oficial (IFE, Pasaporte o Cédula Profesional)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">5</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>&#10004;</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Comprobante domicilio (No mayor a dos meses)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">6</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>&#10004;</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Comprobantes de Ingresos Últimos Recibos Consecutivos. Sutset Centro (2), Estatal y COBATAB (3), Particular (3 NO OBLIGATORIO)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">7</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>NA</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Estado de Cuenta Bancario con Cuenta CLABE Interbancaria Últimos Meses. Estatal y Particular (3), COBATAB y Jubilados (2)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">8</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>&#10004;</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Comprobante de Ingresos ( Recibo de Último Aguinaldo)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">9</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>NA</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Cédula de Identificación Fiscal</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">10</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>&#10004;</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Cédula de CURP ( "No Aplica" en caso de venir en su SOBRE DE PAGO o su IFE/INE)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">11</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>NA</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">R.F.C. ( "No Aplica" en caso de venir en su SOBRE DE PAGO o su IFE/INE)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">12</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>NA</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Garantías (deberá incluir el Avalúo y Libertad de gravamen en caso de que aplique)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">13</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>NA</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Aval y/o Coacreditado (en caso de requerirlo deberá cumplir con los mismos requisitos del cliente)</div>
+    </div>
+
+    <div style="display: flex; margin-top: 36px; justify-content: right;">
+      <div style="display: flex;  min-width: 60%">
+        <label style="font-weight: bold; white-space: nowrap;">Nombre y firma del Promotor:</label>
+        <input type="text" style="border: none; border-bottom: 1px solid black; width: 90%; text-align: center; font-weight: bold; color: red; font-style: italic;" />
+      </div>
+      <div style="margin-left: 16px;">
+        <input type="text" style="border: none; border-bottom: 1px solid black; " />
+      </div>
+    </div>
+
+    <div style="border: 1px solid black; width: 100%; margin-top: 10px;"></div>
+
+    <p class="bold" style="text-align: right;">Listado No.2</p>
+
+    <h4 style="text-align: center;">DOCUMENTACION COMPLEMENTARIA</h4>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">14</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Reporte de Listas Negras</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">15</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div>&#10004;</div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Reporte de Historial Crediticio</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">16</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Dictámen Jurídico</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">17</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Informe de Análisis de Crédito</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">18</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Tabla de Amortizaciones (Anexo CSPF‐2)</div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; margin-top: 8px;">
+      <div style="display: flex; align-items: baseline;">
+        <div style="display: flex; align-items: center;">
+          <div style="width: 20px; text-align: right;">19</div>
+          <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+            <div></div>
+          </div>
+        </div>
+        <div style="margin-left: 8px;">Pagaré (Anexo CSPF-5)</div>
+      </div>
+      <div style="display: flex; width: 50%; align-items: baseline;">
+        <div style="padding: 8px 16px; border: 2px solid black; margin-right: 16px; white-space: nowrap;">
+          Entregó Crédito
+        </div>
+        <div style="position: relative;">
+          <input type="text" style="border: none; border-bottom: 1px solid black; " />
+          <p style="position: absolute; left: 15%; top: 10%;">iniciales y rubrica</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">20</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Carátula de Crédito (Anexo CSPF‐1)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">21</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Contrato Crédito Simple</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">22</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Transcripción de Artículos (Anexo CSPF‐6)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">23</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Certificado de Seguro</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">24</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Formato para Solicitar Domiciliación (Anexo CSPF‐3)</div>
+    </div>
+
+    <div style="display: flex; align-items: baseline; margin-top: 8px;">
+      <div style="display: flex; align-items: center;">
+        <div style="width: 20px; text-align: right;">25</div>
+        <div style="border: 2px solid black; width: 40px; height: 20px; margin: 0 8px; font-weight: bold; text-align: center; align-items: center; display: flex; justify-content: center;">
+          <div></div>
+        </div>
+      </div>
+      <div style="margin-left: 8px;">Póliza o Transferencia</div>
+    </div>
+
+    <div style="display: flex; margin-top: 36px; justify-content: right;">
+      <div style="display: flex;  min-width: 40%">
+        <label style=" white-space: nowrap; margin-right: 8px;">Vo. Bo. De Archivo</label>
+        <input type="text" style="border: none; border-bottom: 1px solid black; width: 90%; text-align: center; font-weight: bold; color: red; font-style: italic;" />
+      </div>
+      <div style="margin-left: 16px;">
+        <input type="text" style="border: none; border-bottom: 1px solid black; " />
+      </div>
+    </div>
+
+    <div style="margin: 16px;">
+      <p><span style="font-size: 22px;">Nota:</span> Todas las casillas deberán estar marcadas con el símbolo (&#10004;) en caso de aplicar y con la leyenda (n/a) en caso de no aplicar</p>
+    </div>
+
+  </div>
+</div>

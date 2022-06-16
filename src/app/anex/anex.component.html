@@ -1,0 +1,150 @@
+<div class="container text-center py-2">
+  <a (click)="print('print')" target="_blank">
+    <button
+      class="text-green-700 border border-green-900 hover:bg-green-700 hover:text-white active:bg-green-600 font-bold uppercase px-8 py-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+      type="button"
+    >
+      <i class="fas fa-print"></i> Print
+    </button>
+  </a>
+</div>
+<div id="print" style="width: 100%; margin: 16px auto; max-width: 1000px; border: 1px solid lightgray; ">
+  <div style="padding: 36px 64px;">
+    <p class="bold" style="text-align: right;">RECA: 5187-439-017190/05-04284-1220</p>
+    <div style="position: relative;">
+      <div>
+        <img src="../../assets/images/solicitud.png" width="250px" alt="">
+      </div>
+      <div style="position: absolute; top: 30%; width: 100%;">
+        <h3 style="text-align: center; font-weight: bold;">Anexo CSPF-4</h3>
+      </div>
+    </div>
+
+    <p style="margin-top: 24px;">
+      Por este conducto autorizo expresamente a TU DINERO, SOCIEDAD ANÓNIMA PROMOTORA DE INVERSION DE CAPITAL VARIABLE,
+      SOCIEDAD FINANCIERA DE OBJETO MÚLTIPLE, ENTIDAD NO REGULADA para que por
+      conducto de sus funcionarios facultados lleve a cabo Investigaciones, sobre mi comportamiento crediticio o el de
+      la Empresa que represento en Trans Union de México, S. A. SIC y/o Dun & Bradstreet, S.A. SIC y/o Circulo de
+      Crédito S.A.SIC.
+    </p>
+
+    <p style="margin-top: 24px;">
+      Asimismo, declaro que conozco la naturaleza y alcance de las sociedades de información crediticia y de la
+      información contenida en los reportes de crédito y reporte de crédito especial, declaro que conozco la naturaleza
+      y alcance de la información que se solicitará, del uso que TU DINERO, SOCIEDAD ANÓNIMA PROMOTORA DE INVERSION DE
+      CAPITAL VARIABLE, SOCIEDAD FINANCIERA DE OBJETO MÚLTIPLE, ENTIDAD NO REGULADA hará de tal
+      información y de que ésta podrá realizar consultas periódicas sobre mi historial o el de la empresa que
+      represento, consintiendo que esta autorización se encuentre vigente por un período de 3 años contados a partir de
+      su expedición y en todo caso durante el tiempo que se mantenga la relación jurídica.
+    </p>
+
+    <p style="margin-top: 24px;">
+      En caso de que la solicitante sea una Persona Moral, declaro bajo protesta de decir verdad Ser Representante Legal
+      de la empresa mencionada en esta autorización; manifestando que a la fecha de firma de la presente autorización
+      los poderes no me han sido revocados, limitados, ni modificados en forma alguna.
+    </p>
+
+    <div>Autorización para:</div>
+    <div style="display: flex; justify-content: space-between;">
+      <div style="width: 30%; display: flex; margin-right: 8px;">
+        <label style="font-weight: bold; width: 50%;">Persona Física (PF)</label>
+        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 50%; "/>
+      </div>
+      <div style="width: 40%; display: flex; margin-right: 8px;">
+        <label style="font-weight: bold; width: 65%;">Persona Física con Actividad Empresarial (PFAE)</label>
+        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 35%; "/>
+      </div>
+      <div style="width: 30%; display: flex; margin-right: 8px;">
+        <label style="font-weight: bold; width: 50%;">Persona Moral (PM)</label>
+        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 50%; "/>
+      </div>
+    </div>
+
+    <div style="margin-top: 36px;">
+      <div style="font-weight: bold;">Nombre del solicitante (Persona Física o Razón Social de la Persona Moral):</div>
+      <input type="text"
+             style="border: none; border-bottom: 1px solid black; width: 100%; text-align: left; font-weight: bold; font-size: 18px;"/>
+    </div>
+
+    <div style="margin-top: 36px;">
+      <div style="font-weight: bold;">Para el caso de Persona Moral, nombre del Representante Legal:</div>
+      <input type="text"
+             style="border: none; border-bottom: 2px solid black; width: 100%; text-align: left; font-weight: bold; font-size: 18px;"/>
+    </div>
+
+
+    <div style="margin-top: 36px;">
+      <div style="display: flex; justify-content: space-between;">
+        <div style="white-space: nowrap; font-weight: bold;">RFC o CURP</div>
+        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
+        <div style="white-space: nowrap;">Domicilo</div>
+        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
+        <div style="white-space: nowrap;">Colonia</div>
+        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
+      </div>
+      <div style="display: flex; justify-content: space-between;">
+        <div style="white-space: nowrap;">Municipio:</div>
+        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
+        <div style="white-space: nowrap;">Estado:</div>
+        <input type="text"
+               style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center; width: 180px;"/>
+        <div style="white-space: nowrap;">Código postal:</div>
+        <input type="text"
+               style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center; width: 80px;"/>
+        <div style="white-space: nowrap;">Teléfono(s):</div>
+        <input type="text"
+               style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center; width: 120px;"/>
+      </div>
+    </div>
+
+
+    <div style="margin-top: 36px;">
+      <div style="display: flex;">
+        <div style="font-weight: bold;">Lugar y Fecha en que se firma la autorización:</div>
+        <input type="text"
+               style="border: none; border-bottom: 1px solid black; font-size: 16px; margin-left: 36px; font-weight: bold; min-width: 50%;"/>
+      </div>
+      <div style="display: flex;">
+        <div style="font-weight: bold;">Nombre del funcionario que recaba la autorización:</div>
+        <input type="text"
+               style="border: none; border-bottom: 1px solid black; font-size: 16px; margin-left: 36px; font-weight: bold; min-width: 50%;"/>
+      </div>
+    </div>
+
+
+    <p style="margin-top: 36px;">
+      Estoy consciente y acepto que este documento quede bajo custodia de TU DINERO, SOCIEDAD ANÓNIMA PROMOTORA DE
+      INVERSION DE CAPITAL VARIABLE, SOCIEDAD FINANCIERA DE OBJETO MÚLTIPLE, ENTIDAD NO REGULADA y/o Sociedad de
+      Información
+      Crediticia consultada para efectos de control y cumplimiento del artículo 28 de la Ley para Regular las Sociedades
+      de Información Crediticia; mismo que señala que las Sociedades sólo podrán proporcionar información a un Usuario,
+      cuando éste cuente con la autorización expresa del Cliente mediante su firma autógrafa.
+    </p>
+
+
+    <div style="display: flex; justify-content: center; margin-top: 36px;">
+      <input type="text"
+             style="border: none; border-bottom: 2px solid black; font-size: 16px; min-width: 50%; text-align: center; font-weight: bold;"/>
+    </div>
+    <div style="text-align: center;">Firma de PF, PFAE o Representante Legal de la empresa</div>
+
+
+    <p style="margin-top: 36px;">
+      Para uso exclusivo de la Empresa que efectúa la consulta TU DINERO, SOCIEDAD ANÓNIMA PROMOTORA DE INVERSION DE
+      CAPITAL VARIABLE, SOCIEDAD FINANCIERA DE OBJETO MÚLTIPLE, ENTIDAD NO REGULADA
+    </p>
+
+
+    <div style="margin-top: 36px;">
+      <div style="display: flex;">
+        <div style="min-width: 200px;">Fecha de Consulta BC :</div>
+        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px;"/>
+      </div>
+      <div style="display: flex;">
+        <div style="min-width: 200px;">Folio de Consulta BC :</div>
+        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px;"/>
+      </div>
+    </div>
+    <br/><br/><br/>
+  </div>
+</div>
