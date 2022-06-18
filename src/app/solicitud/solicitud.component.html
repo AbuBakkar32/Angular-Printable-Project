@@ -24,11 +24,11 @@
     <div style="margin: 50px 0; display: flex; justify-content: right; font-weight: bold;">
       <div style="display: flex;">
         <div style="margin-right: 8px;">Villahermosa, Tabasco a </div>
-        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 40px; " />
+        <input [(ngModel)]="aData.a1" (keyup)="textData(aData.a1)" id="a1" name="a1" class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 40px; " />
         <div>de</div>
-        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; " />
+        <input [(ngModel)]="aData.a2" (keyup)="textData(aData.a2)" id="a2" name="a2" class="my-input" type="text" style="border: none; border-bottom: 1px solid black; " />
         <div>del</div>
-        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 80px; " />
+        <input [(ngModel)]="aData.a3" (keyup)="textData(aData.a3)" id="a3" name="a3" class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 80px; " />
       </div>
     </div>
 
@@ -36,17 +36,17 @@
       <h3 style="font-weight:800; padding-bottom: 8px">A Quien Corresponda: </h3>
       <p style="font-size: 17px;">
         Manifiesto Bajo Protesta de Decir Verdad, que he llevado a  efectos el trámite relativ a
-        <input type="text" style="border: none; text-align: center; font-size: 17px;" />
+        <input [(ngModel)]="aData.a4" (keyup)="textData(aData.a4)" id="a4" name="a4" type="text" style="border: none; text-align: center; font-size: 17px;" />
         la  autorización  de  crédito a  descontar
-        <input type="text" style="border: none; border-bottom: 1px solid black; text-align: center; width: 60px; font-size: 17px;" />
+        <input [(ngModel)]="aData.a5" (keyup)="textData(aData.a5)" id="a5" name="a5" type="text" style="border: none; border-bottom: 1px solid black; text-align: center; width: 60px; font-size: 17px;" />
         vía
-        <input type="text" style="border: none; border-bottom: 1px solid black; text-align: center; font-size: 17px;" />
+        <input [(ngModel)]="aData.a6" (keyup)="textData(aData.a6)" id="a6" name="a6" type="text" style="border: none; border-bottom: 1px solid black; text-align: center; font-size: 17px;" />
         nómina  a  nombre
-        <input type="text" style="border: none; border-bottom: 1px solid black; text-align: center; font-size: 17px; width: 80px;" />
+        <input [(ngModel)]="aData.a7" (keyup)="textData(aData.a7)" id="a7" name="a7" type="text" style="border: none; border-bottom: 1px solid black; text-align: center; font-size: 17px; width: 80px;" />
         del
-        <input type="text" style="border: none; border-bottom: 1px solid black; text-align: center; font-size: 17px; width: 350px; font-weight: bold;" />
+        <input [(ngModel)]="aData.a8" (keyup)="textData(aData.a8)" id="a8" name="a8" type="text" style="border: none; border-bottom: 1px solid black; text-align: center; font-size: 17px; width: 350px; font-weight: bold;" />
         quien es trabajador del H. Ayuntamiento
-        <input type="text" style="border: none; text-align: center; font-size: 17px; width: 80px;" />
+        <input [(ngModel)]="aData.a9" (keyup)="textData(aData.a9)" id="a9" name="a9" type="text" style="border: none; text-align: center; font-size: 17px; width: 80px;" />
         del Municipio de  Centro,  con  la  empresa :  Tu Dinero SAPI de CV SOFOM ENR, a la cual represento.
       </p>
       <br/>

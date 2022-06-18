@@ -21,7 +21,7 @@
           <span style="padding-left: 16px;">MES</span>
           <span style="padding-left: 16px;">AÑO </span>
         </div>
-        <input type="text" style="font-size: 16px; margin-left: 12px; font-weight: bold; color: blue; margin-top: 8px;" />
+        <input [(ngModel)]="aData.a1" (keyup)="textData(aData.a1)" id="a1" name="a1" type="text" style="font-size: 16px; margin-left: 12px; font-weight: bold; color: blue; margin-top: 8px;" />
       </div>
     </div>
 
@@ -41,39 +41,39 @@
       <div>
         <div style="padding: 8px 0;">
           <div>ID ADICIONAL CON MUNICIPIO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a2" (keyup)="textData(aData.a2)" id="a2" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>APELLIDO PATERNO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a3" (keyup)="textData(aData.a3)" id="a3" name="a3"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>PAÍS DE NACIMIENTO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a4" (keyup)="textData(aData.a4)" id="a4" name="a4"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>CONDICIÓN LABORAL:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a5" (keyup)="textData(aData.a5)" id="a5" name="a5"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>APELLIDO MATERNO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a6" (keyup)="textData(aData.a6)" id="a6" name="a6" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>SEXO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a7" (keyup)="textData(aData.a7)" id="a7" name="a7" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>PERSONALIDAD JURÍDICA:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a8" (keyup)="textData(aData.a8)" id="a8" name="a8" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>NOMBRE (S):</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a9" (keyup)="textData(aData.a9)" id="a9" name="a9" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -86,25 +86,25 @@
       <div>
         <div style="padding: 8px 0;">
           <div>CALLE:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a10" (keyup)="textData(aData.a10)" id="a10" name="a10" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>No. EXTERIOR:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a11" (keyup)="textData(aData.a11)" id="a11" name="a11" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>No. INTERIOR:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a12" (keyup)="textData(aData.a12)" id="a12" name="a12" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>CÓDIGO POSTAL:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a13" (keyup)="textData(aData.a13)" id="a13" name="a13" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -113,13 +113,13 @@
       <div style="width: 50%;">
         <div style="padding: 8px 0;">
           <div>ENTRE CALLE:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
+          <input [(ngModel)]="aData.a14" (keyup)="textData(aData.a14)" id="a14" name="a14" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
         </div>
       </div>
       <div style="width: 50%;">
         <div style="padding: 8px 0;">
           <div>Y CALLE:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a15" (keyup)="textData(aData.a15)" id="a15" name="a15" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -128,108 +128,108 @@
       <div>
         <div style="padding: 8px 0;">
           <div>PAIS:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a16" (keyup)="textData(aData.a16)" id="a16" name="a16" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>ESTADO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a17" (keyup)="textData(aData.a17)" id="a17" name="a17" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>MUNICIPIO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a18" (keyup)="textData(aData.a18)" id="a18" name="a18"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>CIUDAD O POBLACIÓN:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a19" (keyup)="textData(aData.a19)" id="a19" name="a19" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
 
     <div style="margin-top: 16px;">COLONIA:</div>
-    <input type="text" style="width: 90%; font-size: 16px;   color: blue;"/>
+    <input [(ngModel)]="aData.a20" (keyup)="textData(aData.a20)" id="a20" name="a20" type="text" style="width: 90%; font-size: 16px;   color: blue;"/>
 
     <div style="display: flex; justify-content: space-between; margin-top: 16px;">
       <div>
         <div style="padding: 8px 0;">
           <div>NACIONALIDAD:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a21" (keyup)="textData(aData.a21)" id="a21" name="a21"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>R.F.C.:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a22" (keyup)="textData(aData.a22)" id="a22" name="a22"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>ESTADO CIVIL:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a23" (keyup)="textData(aData.a23)" id="a23" name="a23"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>FOLIO DE IDENTIFICACIÓN:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a24" (keyup)="textData(aData.a24)" id="a24" name="a24"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>ESTADO DE NACIMIENTO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a25" (keyup)="textData(aData.a25)" id="a25" name="a25"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>CURP:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a26" (keyup)="textData(aData.a26)" id="a26" name="a26"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>REGIMEN:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a27" (keyup)="textData(aData.a27)" id="a27" name="a27" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>TELÉFONO FIJO (CASA):</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a28" (keyup)="textData(aData.a28)" id="a28" name="a28" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>FECHA DE NACIMIENTO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a29" (keyup)="textData(aData.a29)" id="a29" name="a29" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>TIPO DE IDENTIFICACIÓN:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a30" (keyup)="textData(aData.a30)" id="a30" name="a30" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>SOCIEDAD CONYUGAL :</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a31" (keyup)="textData(aData.a31)" id="a31" name="a31" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
         <div style="padding: 8px 0;">
           <div>TELÉFONO 2 / MOVIL:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a32" (keyup)="textData(aData.a32)" id="a32" name="a32" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
 
     <div style="margin-top: 16px;">CORREO ELECTRONICO:</div>
-    <input type="text" style="width: 90%; font-size: 16px;   color: blue;"/>
+    <input [(ngModel)]="aData.a33" (keyup)="textData(aData.a33)" id="a33" name="a33" type="text" style="width: 90%; font-size: 16px;   color: blue;"/>
     <div style="display: flex;">
       <div style="width: 60%;">
         <div>TIPO DE VIVIENDA:</div>
         <div style="display: flex;">
           <div>PROPIA</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a34" (keyup)="textData(aData.a34)" id="a34" name="a34" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           <div>HIPOTECA</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a35" (keyup)="textData(aData.a35)" id="a35" name="a35" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           <div>RENTA</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a36" (keyup)="textData(aData.a36)" id="a36" name="a36" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           <div>PADRES/FAMILIA</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a37" (keyup)="textData(aData.a37)" id="a37" name="a37" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         </div>
       </div>
       <div style="width: 40%;">
         <div>TIEMPO DE RESIDENCIA:</div>
-        <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+        <input [(ngModel)]="aData.a38" (keyup)="textData(aData.a38)" id="a38" name="a38" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
       </div>
     </div>
 
@@ -238,19 +238,19 @@
       <div style="width: 33%;">
         <div style="padding: 8px 0;">
           <div>LUGAR DE TRABAJO:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a39" (keyup)="textData(aData.a39)" id="a39" name="a39" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 33%;">
         <div style="padding: 8px 0;">
           <div>CONDICIÓN LABORAL:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a40" (keyup)="textData(aData.a40)" id="a40" name="a40"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 33%;">
         <div style="padding: 8px 0;">
           <div>PERSONALIDAD JURÍDICA:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a41" (keyup)="textData(aData.a41)" id="a41" name="a41"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -259,13 +259,13 @@
       <div style="width: 60%;">
         <div style="padding: 8px 0;">
           <div>ACTIVIDAD ECONÓMICA / GIRO EMPRESARIAL:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
+          <input [(ngModel)]="aData.a42" (keyup)="textData(aData.a42)" id="a42" name="a42" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
         </div>
       </div>
       <div style="width: 40%;">
         <div style="padding: 8px 0;">
           <div>FIEL (OPCIONAL):</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
+          <input [(ngModel)]="aData.a43" (keyup)="textData(aData.a43)" id="a43" name="a43" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
         </div>
       </div>
     </div>
@@ -274,25 +274,25 @@
       <div>
         <div style="padding: 8px 0;">
           <div>CALLE:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a44" (keyup)="textData(aData.a44)" id="a44" name="a44"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>No. EXTERIOR:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a45" (keyup)="textData(aData.a45)" id="a45" name="a45" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>No. INTERIOR:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a46" (keyup)="textData(aData.a46)" id="a46" name="a46" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>CÓDIGO POSTAL:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a47" (keyup)="textData(aData.a47)" id="a47" name="a47" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -301,19 +301,19 @@
       <div>
         <div style="padding: 8px 0;">
           <div>ENTRE CALLE:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a48" (keyup)="textData(aData.a48)" id="a48" name="a48" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>Y CALLE:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a49" (keyup)="textData(aData.a49)" id="a49" name="a49" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>TELEFONO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a50" (keyup)="textData(aData.a50)" id="a50" name="a50" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -322,25 +322,25 @@
       <div>
         <div style="padding: 8px 0;">
           <div>ESTADO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a51" (keyup)="textData(aData.a51)" id="a51" name="a51" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>MUNICIPIO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a52" (keyup)="textData(aData.a52)" id="a52" name="a52" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>CIUDAD O POBLACIÓN:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a53" (keyup)="textData(aData.a53)" id="a53" name="a53"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>PAIS:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a54" (keyup)="textData(aData.a54)" id="a54" name="a54" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -349,19 +349,19 @@
       <div>
         <div style="padding: 8px 0;">
           <div>COLONIA:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a55" (keyup)="textData(aData.a55)" id="a55" name="a55" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>JEFE INMEDIATO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a56" (keyup)="textData(aData.a56)" id="a56" name="a56" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
       <div>
         <div style="padding: 8px 0;">
           <div>GRADO ESTUDIOS DEL SOLICITANTE:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a57" (keyup)="textData(aData.a57)" id="a57" name="a57" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -371,25 +371,25 @@
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>NOMBRE COMPLETO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a58" (keyup)="textData(aData.a58)" id="a58" name="a58" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>RELACIÓN:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a59" (keyup)="textData(aData.a59)" id="a59" name="a59" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>TELÉFONO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a60" (keyup)="textData(aData.a60)" id="a60" name="a60" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>HORA DE CONTACTO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a61" (keyup)="textData(aData.a61)" id="a61" name="a61" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -398,25 +398,25 @@
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>NOMBRE COMPLETO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a62" (keyup)="textData(aData.a62)" id="a62" name="a62" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>RELACIÓN:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a63" (keyup)="textData(aData.a63)" id="a63" name="a63" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>TELÉFONO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a64" (keyup)="textData(aData.a64)" id="a64" name="a64" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>HORA DE CONTACTO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a65" (keyup)="textData(aData.a65)" id="a65" name="a65" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -426,13 +426,13 @@
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>BANCO O COMERCIO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a66" (keyup)="textData(aData.a66)" id="a66" name="a66"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>No. DE TARJETA:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a67" (keyup)="textData(aData.a67)" id="a67" name="a67"  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -441,13 +441,13 @@
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>BANCO O COMERCIO:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a68" (keyup)="textData(aData.a68)" id="a68" name="a68" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>No. DE TARJETA:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a69" (keyup)="textData(aData.a69)" id="a69" name="a69" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -456,17 +456,17 @@
     <div style="display: flex; margin-top: 36px;">
       <div style="width: 40%;">
         <div>IMPORTE DE CRÉDITO SOLICITADO:</div>
-        <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+        <input [(ngModel)]="aData.a70" (keyup)="textData(aData.a70)" id="a70" name="a70" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
       </div>
       <div style="width: 60%;">
         <div>COMISIONES DE CRÉDITO:</div>
         <div style="display: flex;">
           <div>DE APERTURA </div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a71" (keyup)="textData(aData.a71)" id="a71" name="a71" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           <div>MANEJO DE CTA. </div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a72" (keyup)="textData(aData.a72)" id="a72" name="a72" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           <div>SEGURO</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a73" (keyup)="textData(aData.a73)" id="a73" name="a73" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         </div>
       </div>
     </div>
@@ -475,9 +475,9 @@
       <div>FORMA DE PAGO DE COMISIONES:</div>
       <div style="display: flex;">
         <div>A DESCONTAR DEL CRÉDITO</div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a74" (keyup)="textData(aData.a74)" id="a74" name="a74" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         <div>A PAGAR POR EL CLIENTE</div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a75" (keyup)="textData(aData.a75)" id="a75" name="a75" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
       </div>
     </div>
 
@@ -485,13 +485,13 @@
       <div>PLAZO DE PAGO:</div>
       <div style="display: flex;">
         <div>QUINCENAL </div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a76" (keyup)="textData(aData.a76)" id="a76" name="a76" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         <div>MENSUAL </div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a77" (keyup)="textData(aData.a77)" id="a77" name="a77" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         <div>AGUINALDO</div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a78" (keyup)="textData(aData.a78)" id="a78" name="a78" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         <div>No. DE PAGOS </div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a79" (keyup)="textData(aData.a79)" id="a79" name="a79" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
       </div>
     </div>
 
@@ -499,11 +499,11 @@
       <div>FORMA DE OTORGAMIENTO DE CRÉDITO:</div>
       <div style="display: flex;">
         <div>ORDEN DE PAGO</div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a80" (keyup)="textData(aData.a80)" id="a80" name="a80" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         <div style="margin-left: 12px;">CHEQUE </div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a81" (keyup)="textData(aData.a81)" id="a81" name="a81" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         <div style="margin-left: 12px;">TRANSFERENCIA </div>
-        <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+        <input [(ngModel)]="aData.a82" (keyup)="textData(aData.a82)" id="a82" name="a82" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
       </div>
     </div>
 
@@ -512,11 +512,11 @@
       <div style="display: flex;">
         <div style="display: flex; width: 50%;">
           <div>NOMBRE DEL BANCO</div>
-          <input type="text" style="  font-size: 16px; color: blue; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a83" (keyup)="textData(aData.a83)" id="a83" name="a83" type="text" style="  font-size: 16px; color: blue; padding-left: 4px;" />
         </div>
         <div style="display: flex; width: 50%;">
           <div>CLABE INTERBANCARIA</div>
-          <input type="text" style="  font-size: 16px; color: blue; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a84" (keyup)="textData(aData.a84)" id="a84" name="a84" type="text" style="  font-size: 16px; color: blue; padding-left: 4px;" />
         </div>
       </div>
     </div>
@@ -526,11 +526,11 @@
       <div style="display: flex;">
         <div style="display: flex; width: 50%;">
           <div>NOMBRE DEL BANCO</div>
-          <input type="text" style="  font-size: 16px; color: blue; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a85" (keyup)="textData(aData.a85)" id="a85" name="a85" type="text" style="  font-size: 16px; color: blue; padding-left: 4px;" />
         </div>
         <div style="display: flex; width: 50%;">
           <div>CLABE INTERBANCARIA</div>
-          <input type="text" style="  font-size: 16px; color: blue; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a86" (keyup)="textData(aData.a86)" id="a86" name="a86" type="text" style="  font-size: 16px; color: blue; padding-left: 4px;" />
         </div>
       </div>
     </div>
@@ -538,36 +538,36 @@
     <div style="display: flex; margin-top: 36px;">
       <div style="width: 40%;">
         <div>FECHA DE 1er. PAGO:</div>
-        <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+        <input [(ngModel)]="aData.a87" (keyup)="textData(aData.a87)" id="a87" name="a87" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
       </div>
       <div style="width: 60%;">
         <div>FORMA DE PAGO DEL CLIENTE:</div>
         <div style="display: flex;">
           <div>REFERENCIADO</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 50px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a88" (keyup)="textData(aData.a88)" id="a88" name="a88" type="text" style="  font-size: 16px; color: blue; width: 50px; padding-left: 4px;" />
           <div>DOMICILIADO</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 50px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a89" (keyup)="textData(aData.a89)" id="a89" name="a89" type="text" style="  font-size: 16px; color: blue; width: 50px; padding-left: 4px;" />
           <div>NÓMINA </div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 50px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a90" (keyup)="textData(aData.a90)" id="a90" name="a90" type="text" style="  font-size: 16px; color: blue; width: 50px; padding-left: 4px;" />
         </div>
       </div>
     </div>
 
     <div style="margin-top: 24px;">OBSERVACIONES</div>
-    <input type="text" style="  font-size: 16px; color: blue; width: 100%;" />
+    <input [(ngModel)]="aData.a91" (keyup)="textData(aData.a91)" id="a91" name="a91" type="text" style="  font-size: 16px; color: blue; width: 100%;" />
 
     <div style="margin-top: 50px; text-align: center; font-size: 22px;">DATOS COMPLEMENTARIOS (ANEXO 4)</div>
     <div style="display: flex; justify-content: space-between; margin-top: 16px;">
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>PRODUCTOS Y/O SERVICIOS QUE CONTRATARÁ:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a92" (keyup)="textData(aData.a92)" id="a92" name="a92" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>ORIGEN DE LOS RECURSOS A OPERAR:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a93" (keyup)="textData(aData.a93)" id="a93" name="a93" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -576,13 +576,13 @@
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>DESTINO DE LOS RECURSOS A OPERAR:</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a94" (keyup)="textData(aData.a94)" id="a94" name="a94" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>MONTO DE OPERACIÓN (ESTIMADO MENSUAL):</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a95" (keyup)="textData(aData.a95)" id="a95" name="a95" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -591,7 +591,7 @@
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>NUMERO DE OPERACIONES (ESTIMADO MENSUAL):</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a96" (keyup)="textData(aData.a96)" id="a96" name="a96" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -601,20 +601,20 @@
         <div>FRECUENCIA TRANSACCIONAL (ESTIMADO MENSUAL):</div>
         <div style="display: flex;">
           <div>BAJA </div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a97" (keyup)="textData(aData.a97)" id="a97" name="a97" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           <div>MED </div>
           <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           <div>ALTA </div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a98" (keyup)="textData(aData.a98)" id="a98" name="a98" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         </div>
       </div>
       <div style="width: 40%;">
         <div>¿REALIZARÁ PAGOS EN EFECTIVO?</div>
         <div style="display: flex;">
           <div>SI</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a99" (keyup)="textData(aData.a99)" id="a99" name="a99" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           <div>NO</div>
-          <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+          <input [(ngModel)]="aData.a100" (keyup)="textData(aData.a100)" id="a100" name="a100" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
         </div>
       </div>
     </div>
@@ -623,7 +623,7 @@
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>EN CASO DE UTILIZAR DINERO EN EFECTIVO, FAVOR DE ESPECIFICAR MOTIVOS Y MONTO ESTIMADO MENSUAL</div>
-          <input  type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
+          <input [(ngModel)]="aData.a101" (keyup)="textData(aData.a101)" id="a101" name="a101" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 100%;" />
         </div>
       </div>
     </div>
@@ -634,9 +634,9 @@
           <div>¿DESEMPEÑA ACTUALMENTE O DESEMPEÑÓ DURANE EL AÑO INMEDIATO ANTERIOR ALGÚN CARGO PÚBLICO DESTACADO A NIVEL FEDERAL, ESTATAL, MUNICIPAL, DISTRITAL EN MÉXICO O EN ALGÚN PAÍS EXTRANJERO?</div>
           <div style="display: flex; margin-top: 8px;">
             <div>SI</div>
-            <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+            <input [(ngModel)]="aData.a102" (keyup)="textData(aData.a102)" id="a102" name="a102" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
             <div>NO</div>
-            <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+            <input [(ngModel)]="aData.a103" (keyup)="textData(aData.a103)" id="a103" name="a103" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           </div>
         </div>
       </div>
@@ -645,15 +645,15 @@
     <div style="margin-top: 16px;">EN CASO DE SER POSITIVO ESPECIFICAR:</div>
     <div style="display: flex; margin-top: 8px;">
       <div>DEPENDENCIA:</div>
-      <input type="text" style="  font-size: 16px; color: blue;" />
+      <input [(ngModel)]="aData.a104" (keyup)="textData(aData.a104)" id="a104" name="a104" type="text" style="  font-size: 16px; color: blue;" />
       <div>PUESTO:</div>
-      <input type="text" style="  font-size: 16px; color: blue;" />
+      <input [(ngModel)]="aData.a105" (keyup)="textData(aData.a105)" id="a105" name="a105" type="text" style="  font-size: 16px; color: blue;" />
     </div>
     <div style="display: flex; margin-top: 8px;">
       <div>PRINCIPALES FUNCIONES:</div>
-      <input type="text" style="  font-size: 16px; color: blue;" />
+      <input [(ngModel)]="aData.a106" (keyup)="textData(aData.a106)" id="a106" name="a106" type="text" style="  font-size: 16px; color: blue;" />
       <div>PERIÓDO EJERCIDO:</div>
-      <input type="text" style="  font-size: 16px; color: blue;" />
+      <input  [(ngModel)]="aData.a107" (keyup)="textData(aData.a107)" id="a107" name="a107" type="text" style="  font-size: 16px; color: blue;" />
     </div>
 
     <div style="margin-top: 16px;">
@@ -662,9 +662,9 @@
           <div>¿SU CONYUGUE O ALGÚN PARIENTE POR CONSANGUINIDAD O AFINIDAD HASTA EL SEGUNDO GRADO, DESEMPEÑA ACTUALMENTE O DESEMPEÑÓ DURANTE EL AÑO INMEDIATO ANTERIOR ALGÚN CARGO PÚBLICO DESTACADO A NIVEL FEDERAL, ESTATAL, MUNICIPAL O DISTRITAL EN MÉXICO O EN ALGÚN PAÍS EXTRANJERO?</div>
           <div style="display: flex; margin-top: 8px;">
             <div>SI</div>
-            <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+            <input [(ngModel)]="aData.a108" (keyup)="textData(aData.a108)" id="a108" name="a108" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
             <div>NO</div>
-            <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+            <input [(ngModel)]="aData.a109" (keyup)="textData(aData.a109)" id="a109" name="a109" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           </div>
         </div>
       </div>
@@ -675,13 +675,13 @@
       <div style="width: 50%;">
         <div style="padding: 8px 0;">
           <div>NOMBRE:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
+          <input [(ngModel)]="aData.a110" (keyup)="textData(aData.a110)" id="a110" name="a110" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
         </div>
       </div>
       <div style="width: 50%;">
         <div style="padding: 8px 0;">
           <div>PUESTO:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a111" (keyup)="textData(aData.a111)" id="a111" name="a111" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -689,13 +689,13 @@
       <div style="width: 50%;">
         <div style="padding: 8px 0;">
           <div>DEPENDENCIA:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
+          <input [(ngModel)]="aData.a112" (keyup)="textData(aData.a112)" id="a112" name="a112" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
         </div>
       </div>
       <div style="width: 50%;">
         <div style="padding: 8px 0;">
           <div>PERIÓDO EJERCIDO:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a113" (keyup)="textData(aData.a113)" id="a113" name="a113" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -703,13 +703,13 @@
       <div style="width: 50%;">
         <div style="padding: 8px 0;">
           <div>PRINCIPALES FUNCIONES:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
+          <input [(ngModel)]="aData.a114" (keyup)="textData(aData.a114)" id="a114" name="a114" type="text" style="  font-size: 16px; color: blue; margin-top: 8px; width: 90%;" />
         </div>
       </div>
       <div style="width: 50%;">
         <div style="padding: 8px 0;">
           <div>PARENTESCO/RELACIÓN:</div>
-          <input type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
+          <input [(ngModel)]="aData.a115" (keyup)="textData(aData.a115)" id="a115" name="a115" type="text" style="  font-size: 16px; color: blue; margin-top: 8px;" />
         </div>
       </div>
     </div>
@@ -720,9 +720,9 @@
           <div>¿ALGÚN TERCERO OBTENDRÁ LOS BENEFICIOS DERIVADOS DE LAS OPERACIONES REALIZADAS CON Tu Dinero SAPI de CV SOFOM ENR Y EJERZA LOS DERECHOS DE USO, APROVECHAMIENTO O DISPOSICIÓN DE LOS RECURSOS OPERADOS, SIENDO EL VERDADERO PROPIETARIO DE LOS MISMOS?</div>
           <div style="display: flex; margin-top: 8px;">
             <div>SI</div>
-            <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+            <input [(ngModel)]="aData.a116" (keyup)="textData(aData.a116)" id="a116" name="a116" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
             <div>NO</div>
-            <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+            <input [(ngModel)]="aData.a117" (keyup)="textData(aData.a117)" id="a117" name="a117" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           </div>
         </div>
       </div>
@@ -730,38 +730,38 @@
 
     <div style="margin-top: 16px;">EN CASO POSITIVO, ESPECIFICAR EL NOMBRE DE LA PERSONA FÍSICA O MORAL Y LLENAR EL "FORMATO DE IDENTIFICACIÓN DE PROPIETARIO REAL"</div>
     <div>NOMBRE DEL PROPIETARIO REAL:</div>
-    <input type="text" style="  font-size: 16px; color: blue; width: 100%;" />
+    <input [(ngModel)]="aData.a118" (keyup)="textData(aData.a118)" id="a118" name="a118" type="text" style="  font-size: 16px; color: blue; width: 100%;" />
     <div style="margin-top: 16px;">
       <div style="width: 100%;">
         <div style="padding: 8px 0;">
           <div>¿ALGÚN TERCERO APORTARÁ REGULARMENTE RECURSOS PARA EL CUMPLIMIENTO DE LAS OBLIGACIONES DERIVADAS DEL CONTRATO QUE SE ESTABLEZCA CON Tu Dinero SAPI de CV SOFOM ENR, SIN SER EL TITULAR DE DICHO CONTRATO NI OBTENER LOS BENEFICIOS ECONÓMICOS DERIVADOS DEL MISMO?</div>
           <div style="display: flex; margin-top: 8px;">
             <div>SI</div>
-            <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+            <input [(ngModel)]="aData.a119" (keyup)="textData(aData.a119)" id="a119" name="a119" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
             <div>NO</div>
-            <input type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
+            <input [(ngModel)]="aData.a120" (keyup)="textData(aData.a120)" id="a120" name="a120" type="text" style="  font-size: 16px; color: blue; width: 30px; padding-left: 4px;" />
           </div>
         </div>
       </div>
     </div>
     <p>EN CASO POSITIVO, ESPECIFICAR EL NOMBRE DE LA PERSONA FÍSICA O MORAL Y LLENAR EL "FORMATO DE PROVEEDORES DE RECURSOS"</p>
     <div>NOMBRE DEL PROPIETARIO REAL:</div>
-    <input type="text" style="  font-size: 16px; color: blue; width: 100%;" />
+    <input [(ngModel)]="aData.a121" (keyup)="textData(aData.a121)" id="a121" name="a121" type="text" style="  font-size: 16px; color: blue; width: 100%;" />
     <div style="font-size: 22px; text-align: center; margin-top: 50px;">DECLARATORIA DEL CLIENTE</div>
     <div style="margin-top: 36px;">DECLARO QUE LA INFORMACIÓN Y DOCUMENTACIÓN PRESENTADAS SON VERDADERAS, QUE SE ACTUÓ POR CUENTA PROPIA Y QUE EL ORÍGEN DE MIS RECURSOS ES LÍCITO.</div>
     <div style="display: flex; justify-content: space-around; margin: 36px;">
       <div>
-        <input type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px; min-width: 300px;" />
+        <input [(ngModel)]="aData.a122" (keyup)="textData(aData.a122)" id="a122" name="a122" type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px; min-width: 300px;" />
         <div style="text-align: center;">NOMBRE COMPLETO DEL SOLICITANTE</div>
       </div>
       <div>
-        <input type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px;" />
+        <input [(ngModel)]="aData.a123" (keyup)="textData(aData.a123)" id="a123" name="a123" type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px;" />
         <div style="text-align: center;">FIRMA DEL SOLICITANTE</div>
       </div>
     </div>
     <div style="display: flex; justify-content: start;">
       <div style="white-space: nowrap; margin-right: 8px;">LUGAR Y FECHA DE ELABORACIÓN: </div>
-      <input type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px; width: 100%;" />
+      <input [(ngModel)]="aData.a124" (keyup)="textData(aData.a124)" id="a124" name="a124" type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px; width: 100%;" />
     </div>
     <div style="margin-top: 36px;">
       <div>DOCUMENTACIÓN NECESARIA PARA LA APERTURA:</div>
@@ -777,11 +777,11 @@
     <div style="margin-top: 36px; display: flex; justify-content: center; align-items: baseline;">
       <div>EJECUTIVO:</div>
       <div style="margin-right: 16px;">
-        <input type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px; min-width: 250px;" />
+        <input [(ngModel)]="aData.a125" (keyup)="textData(aData.a125)" id="a125" name="a125" type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px; min-width: 250px;" />
         <div style="text-align: center;">Tu Dinero SAPI de CV SOFOM ENR</div>
       </div>
       <div>
-        <input type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px;" />
+        <input [(ngModel)]="aData.a126" (keyup)="textData(aData.a126)" id="a126" name="a126" type="text" style="border: none; border-bottom: 1px solid blue; font-weight: bold; font-size: 16px;" />
         <div style="text-align: center;">FIRMA</div>
       </div>
     </div>

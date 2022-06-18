@@ -48,27 +48,27 @@
     <div style="display: flex; justify-content: space-between;">
       <div style="width: 30%; display: flex; margin-right: 8px;">
         <label style="font-weight: bold; width: 50%;">Persona Física (PF)</label>
-        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 50%; "/>
+        <input [(ngModel)]="aData.a1" (keyup)="textData(aData.a1)" id="a1" name="a1" class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 50%; "/>
       </div>
       <div style="width: 40%; display: flex; margin-right: 8px;">
         <label style="font-weight: bold; width: 65%;">Persona Física con Actividad Empresarial (PFAE)</label>
-        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 35%; "/>
+        <input [(ngModel)]="aData.a2" (keyup)="textData(aData.a2)" id="a2" name="a2" class="my-input" style="border: none; border-bottom: 1px solid black; width: 35%; "/>
       </div>
       <div style="width: 30%; display: flex; margin-right: 8px;">
         <label style="font-weight: bold; width: 50%;">Persona Moral (PM)</label>
-        <input class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 50%; "/>
+        <input [(ngModel)]="aData.a3" (keyup)="textData(aData.a3)" id="a3" name="a3" class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 50%; "/>
       </div>
     </div>
 
     <div style="margin-top: 36px;">
       <div style="font-weight: bold;">Nombre del solicitante (Persona Física o Razón Social de la Persona Moral):</div>
-      <input type="text"
+      <input [(ngModel)]="aData.a4" (keyup)="textData(aData.a4)" id="a4" name="a4" type="text"
              style="border: none; border-bottom: 1px solid black; width: 100%; text-align: left; font-weight: bold; font-size: 18px;"/>
     </div>
 
     <div style="margin-top: 36px;">
       <div style="font-weight: bold;">Para el caso de Persona Moral, nombre del Representante Legal:</div>
-      <input type="text"
+      <input [(ngModel)]="aData.a5" (keyup)="textData(aData.a5)" id="a5" name="a5" type="text"
              style="border: none; border-bottom: 2px solid black; width: 100%; text-align: left; font-weight: bold; font-size: 18px;"/>
     </div>
 
@@ -76,23 +76,23 @@
     <div style="margin-top: 36px;">
       <div style="display: flex; justify-content: space-between;">
         <div style="white-space: nowrap; font-weight: bold;">RFC o CURP</div>
-        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
+        <input [(ngModel)]="aData.a6" (keyup)="textData(aData.a6)" id="a6" name="a6" type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
         <div style="white-space: nowrap;">Domicilo</div>
-        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
+        <input [(ngModel)]="aData.a7" (keyup)="textData(aData.a7)" id="a7" name="a7" type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
         <div style="white-space: nowrap;">Colonia</div>
-        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
+        <input [(ngModel)]="aData.a8" (keyup)="textData(aData.a8)" id="a8" name="a8" type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
       </div>
       <div style="display: flex; justify-content: space-between;">
         <div style="white-space: nowrap;">Municipio:</div>
-        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
+        <input [(ngModel)]="aData.a9" (keyup)="textData(aData.a9)" id="a9" name="a9" type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center;"/>
         <div style="white-space: nowrap;">Estado:</div>
-        <input type="text"
+        <input [(ngModel)]="aData.a10" (keyup)="textData(aData.a10)" id="a10" name="a10" type="text"
                style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center; width: 180px;"/>
         <div style="white-space: nowrap;">Código postal:</div>
-        <input type="text"
+        <input [(ngModel)]="aData.a11" (keyup)="textData(aData.a11)" id="a11" name="a11" type="text"
                style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center; width: 80px;"/>
         <div style="white-space: nowrap;">Teléfono(s):</div>
-        <input type="text"
+        <input [(ngModel)]="aData.a12" (keyup)="textData(aData.a12)" id="a12" name="a12" type="text"
                style="border: none; border-bottom: 1px solid black; font-size: 16px; text-align: center; width: 120px;"/>
       </div>
     </div>
@@ -101,12 +101,12 @@
     <div style="margin-top: 36px;">
       <div style="display: flex;">
         <div style="font-weight: bold;">Lugar y Fecha en que se firma la autorización:</div>
-        <input type="text"
+        <input [(ngModel)]="aData.a13" (keyup)="textData(aData.a13)" id="a13" name="a13" type="text"
                style="border: none; border-bottom: 1px solid black; font-size: 16px; margin-left: 36px; font-weight: bold; min-width: 50%;"/>
       </div>
       <div style="display: flex;">
         <div style="font-weight: bold;">Nombre del funcionario que recaba la autorización:</div>
-        <input type="text"
+        <input [(ngModel)]="aData.a14" (keyup)="textData(aData.a14)" id="a14" name="a14" type="text"
                style="border: none; border-bottom: 1px solid black; font-size: 16px; margin-left: 36px; font-weight: bold; min-width: 50%;"/>
       </div>
     </div>
@@ -123,7 +123,7 @@
 
 
     <div style="display: flex; justify-content: center; margin-top: 36px;">
-      <input type="text"
+      <input [(ngModel)]="aData.a15" (keyup)="textData(aData.a15)" id="a15" name="a15" type="text"
              style="border: none; border-bottom: 2px solid black; font-size: 16px; min-width: 50%; text-align: center; font-weight: bold;"/>
     </div>
     <div style="text-align: center;">Firma de PF, PFAE o Representante Legal de la empresa</div>
@@ -138,11 +138,11 @@
     <div style="margin-top: 36px;">
       <div style="display: flex;">
         <div style="min-width: 200px;">Fecha de Consulta BC :</div>
-        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px;"/>
+        <input [(ngModel)]="aData.a16" (keyup)="textData(aData.a16)" id="a16" name="a16" type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px;"/>
       </div>
       <div style="display: flex;">
         <div style="min-width: 200px;">Folio de Consulta BC :</div>
-        <input type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px;"/>
+        <input [(ngModel)]="aData.a17" (keyup)="textData(aData.a17)" id="a17" name="a17" type="text" style="border: none; border-bottom: 1px solid black; font-size: 16px;"/>
       </div>
     </div>
     <br/><br/><br/>
