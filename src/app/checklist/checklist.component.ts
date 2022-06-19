@@ -26,6 +26,7 @@ export class ChecklistComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.textData(this.route.snapshot.paramMap.get('id'));
   }
 
   print(Name: string) {

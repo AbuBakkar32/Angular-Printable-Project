@@ -7,7 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./anex.component.css']
 })
 export class AnexComponent implements OnInit {
-
+// this is initial data for the text. dont change this
   aData = {
     a1: '',
     a2: '',
@@ -34,6 +34,7 @@ export class AnexComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.textData(this.route.snapshot.paramMap.get('id'));
   }
 
   print(Name: string) {

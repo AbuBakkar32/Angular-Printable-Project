@@ -48,7 +48,7 @@
     <div style="display: flex; justify-content: space-between;">
       <div style="width: 30%; display: flex; margin-right: 8px;">
         <label style="font-weight: bold; width: 50%;">Persona Física (PF)</label>
-        <input [(ngModel)]="aData.a1" (keyup)="textData(aData.a1)" id="a1" name="a1" class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 50%; "/>
+        <input [(ngModel)]="aData.a1" (keyup)="textData(aData.a1)" [value]="aData.a1" id="a1" name="a1" class="my-input" type="text" style="border: none; border-bottom: 1px solid black; width: 50%; "/>
       </div>
       <div style="width: 40%; display: flex; margin-right: 8px;">
         <label style="font-weight: bold; width: 65%;">Persona Física con Actividad Empresarial (PFAE)</label>
